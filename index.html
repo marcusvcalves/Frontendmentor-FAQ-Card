@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <footer>
+  <body>
+    <main>
+      <div class="container">
+        <img src="images\illustration-woman-online-desktop.svg" class="woman" alt="illustration woman desktop">
+        <img src="images\illustration-woman-online-mobile.svg" class="womanMobile" alt="illustration woman mobile">
+        <img src="images\illustration-box-desktop.svg" class ="at" alt="illustration">
+        <img src="images\bg-pattern-desktop.svg" class ="shadow" alt="illustration shadow">
+        <div class="FAQCard">
+          <h2>FAQ</h2>
+          <div class="FAQCardItem border" id="test">
+            How many team members can I invite? <img src="images\icon-arrow-down.svg" alt="arrow" class="arrow">
+          </div>
+          <div class="hidden">
+            You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.
+          </div>
+          <div class="FAQCardItem border">
+            What is the maximum file upload size? <img src="images\icon-arrow-down.svg" alt="arrow" class="arrow">
+          </div>
+          <div class="hidden">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </div>
+          <div class="FAQCardItem border">
+            How do I reset my password? <img src="images\icon-arrow-down.svg" alt="arrow" class="arrow">
+          </div>
+          <div class="hidden">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </div>
+          <div class="FAQCardItem border">
+            Can I cancel my subscription? <img src="images\icon-arrow-down.svg" alt="arrow" class="arrow">
+          </div>
+          <div class="hidden">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </div>
+          <div class="FAQCardItem border">
+            Do you provide additional support? <img src="images\icon-arrow-down.svg" alt="arrow" class="arrow">
+          </div>
+          <div class="hidden">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam" target="_blank">Challenge</a> by Frontend Mentor. Coded by
+      <a href="https://github.com/marcusvcalves/" target="_blank"
+        >Marcus Vinícius</a
+      >.
+    </div>
+  </footer>
+  </body>
 </html>
+
