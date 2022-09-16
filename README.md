@@ -1,1 +1,1 @@
-marcusvcalves.github.io/Frontendmentor-FAQ-Card/
+https://marcusvcalves.github.io/Frontendmentor-FAQ-Card/
